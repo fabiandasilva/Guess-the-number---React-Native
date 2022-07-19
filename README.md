@@ -8,6 +8,7 @@ Este es un mini proyecto para el curso de React Native.
 
 -  expo (~45.0.0)
 -  expo-status-bar (~1.3.0)
+-  Tailwind
 
 ## Pasos de instalacións
 
