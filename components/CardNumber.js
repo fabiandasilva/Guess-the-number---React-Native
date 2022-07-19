@@ -2,16 +2,18 @@ import { StyleSheet, View } from "react-native";
 
 import React from "react";
 
-const Card = (props) => (
-   <View style={{ ...styles.inputCard, ...props.styles }}>
+const CardNumber = (props) => (
+   <View style={{ ...styles.inputCardNumber, ...props.styles }}>
       {props.children}
    </View>
 );
 const styles = StyleSheet.create({
-   inputCard: {
-     justifyContent: "center",
-     alignContent: "center",
-     alignItems: "center",
+   inputCardNumber: {
+      justifyContent: "center",
+      flexDirection: "row",
+      alignContent: "space-around",
+      alignItems: "center",
+
       backgroundColor: "white",
       borderRadius: 10,
       shadowColor: "#000",
@@ -23,7 +25,6 @@ const styles = StyleSheet.create({
       shadowRadius: 13.97,
       elevation: 21,
    },
- 
 });
 
-export default Card;
+export default CardNumber;
